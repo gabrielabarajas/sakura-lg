@@ -1,4 +1,29 @@
-#card-color{
-    width: 18rem;
-    background-color: #FB0097;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+.card-set{
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.cont-cards{
+    display: flex;
+    width: 100%;
+}
+
+.txt-card{
+    color: grey;
+    font-family:'Jomhuria', cursive;
+    font: Jomhuria;
+    font-size: 4rem;
+    margin: 10%;
+}
+
+.img-set{
+    width: 10%;
+
 }
