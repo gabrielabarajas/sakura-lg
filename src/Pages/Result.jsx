@@ -1,11 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Header from '../Components/Header'
 
 function Result() {
   return (
     <>
-        <h1>Resultado de Lectura </h1>
-        <Link to="/" >Ir a Página Inicial</Link>    
+        <Header/>   
     </>
 
   )
