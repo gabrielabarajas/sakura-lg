@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from "../pages/Home"
-import Reading from '../pages/Reading'
-import Result from '../pages/Result'
+import Home from '../Pages/Home'
+import Reading from "../Pages/Reading"
+import Result from '../Pages/Result'
 
 function Router() {
   return (

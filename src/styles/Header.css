@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+.container-header{
+    background-color: #fb0097;
+    display: flex;
+}
+
+.header-titol{
+   color: #f2db0a;
+   font-family:'Jomhuria', cursive;
+   font: Jomhuria;
+   font-size: 600%;
+}
+
+.container-nav{
+   display: flex;
+}
+
+.header-nav{
+   color: white;
+   font-family:'Jomhuria', cursive;
+   font: Jomhuria;
+   font-size: 270%;
+   margin: 7%;
+}
+
