@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 
 .container-header{
+   width: 100%;
     background-color: #fb0097;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
 }
 
 .header-titol{
@@ -14,13 +19,15 @@
 
 .container-nav{
    display: flex;
+   width: 40%;
 }
 
 .header-nav{
    color: white;
    font-family:'Jomhuria', cursive;
    font: Jomhuria;
-   font-size: 270%;
+   font-size: 200%;
    margin: 7%;
+   text-decoration: none;
 }
 
