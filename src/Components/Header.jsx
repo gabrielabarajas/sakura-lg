@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
     <div className='container-header'>
-       <div className='header-titol'> Sakura Tarot </div>
+       <div className='header-title'> Sakura Tarot </div>
        <div className='container-nav'>
          <Link to="/" className='header-nav'>Inicio</Link>
          <Link to="/Reading" className='header-nav' >Cartas</Link>
@@ -14,6 +14,8 @@ function Header() {
        </div>
     </div>
     </>
+
+    
   )
 }
 

@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 
-.container-header{
-   width: 100%;
-   height: 20%;
-    background-color: #fb0097;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+*{
+   padding:0;
+   margin:0;
+   box-sizing: border-box;
 }
 
-.header-titol{
+.container-header{
+   width: 100%;
+   height: 100px;
+   background-color: #fb0097;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+}
+
+.header-title{
    color: #f2db0a;
    font-family:'Jomhuria', cursive;
    font: Jomhuria;
-   font-size: 600%;
+   font-size: 5em;
 }
 
 .container-nav{
