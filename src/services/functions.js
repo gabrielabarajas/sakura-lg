@@ -6,3 +6,4 @@ const GetCards = (state) =>{
 };
 
 export default GetCards;
+
