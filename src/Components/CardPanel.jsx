@@ -5,8 +5,8 @@ import RandomArray from '../services/Randomize';
 
 function CardPanel() {
   const [cards,setCards ] = useState([]);
-  GetCards(setCards);
   RandomArray(cards);
+  GetCards(setCards);
 
   return (
     <>
