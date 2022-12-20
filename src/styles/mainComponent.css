@@ -1,0 +1,25 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+ }
+
+.cont-main{
+    display:flex;
+}
+
+.txt-main{
+    color: #E1808F;
+    font-family:'Jomhuria', cursive;
+    font: Jomhuria;
+    font-size: 4em;
+    width: 40%;
+    margin:5%;
+    line-height: normal;
+    margin-top: 15%;
+}
+
+.img-main{
+    width: 300px;
+    height: 450px;
+}

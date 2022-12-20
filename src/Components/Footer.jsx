@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
+import "../styles/footer.css"
 
 export class Footer extends Component {
   render() {
     return (
-      <p> FemCoders Gaby&Luisa 2022</p>
+      <>
+      <div className='cont-footer'>
+        <p className='txt-footer'> FemCoders Gaby&Luisa 2022</p>
+      </div>
+      </>
     )
   }
 }

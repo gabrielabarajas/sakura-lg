@@ -6,3 +6,5 @@ const RandomArray = (array) =>{
         array[x] = temporal;
     }
 }
+
+export default RandomArray

@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Card from './Card'
 import GetCards from '../services/functions'
 import RandomArray from '../services/Randomize';
 
 function CardPanel() {
   const [cards,setCards ] = useState([]);
-  RandomArray(cards);
-  GetCards(setCards);
 
+  GetCards(setCards);
+  RandomArray(cards);
   return (
     <>
       <div className="bg-white">
