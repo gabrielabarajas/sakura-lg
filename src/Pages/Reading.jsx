@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../Components/Header'
-import CardPanel from '../Components/CardPanel'
-import Footer from '../Components/Footer'
+import Header from '../components/Header'
+import CardPanel from '../components/CardPanel'
+import Footer from '../components/Footer'
 
 function Reading() {
   return (
