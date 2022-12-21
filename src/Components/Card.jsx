@@ -3,7 +3,7 @@ import "../styles/card.css";
 import ReactCardFlip from 'react-card-flip';
 import backFace from '../images/SakuraBackFace.jpg'
 
-function Card() {
+function Card(key,image,name,title) {
 
 const [isFlipped, setIsFlipped] = useState(false);
 
@@ -27,7 +27,7 @@ return (
 
                 <ReactCardFlip isFlipped={isFlipped}>
                     <img src ={backFace} alt ='back face card' className="h-full w-full object-cover object-center group-hover:opacity-75 rounded-3xl" onClick = { () => {handleClick(); handleAddCard();}}/>
-                    <img key = {this.key} src = {this.image} alt ={this.name} className="h-full w-full object-cover object-center group-hover:opacity-75 rounded-3xl"/>
+                    <img key = {key} src = {image} alt ={name} className="h-full w-full object-cover object-center group-hover:opacity-75 rounded-3xl"/>
                 </ReactCardFlip>
             </div>
         </div>
