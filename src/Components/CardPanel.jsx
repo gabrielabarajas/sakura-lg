@@ -8,6 +8,7 @@ function CardPanel() {
 
   GetCards(setCards);
   RandomArray(cards);
+
   return (
     <>
       

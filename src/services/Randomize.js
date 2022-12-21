@@ -1,10 +1,5 @@
 const RandomArray = (array) =>{
-    for (let i = array.length-1; i>0; i--){
-        let x = Math.floor(Math.random() * (i+1));
-        let temporal = array[i];
-        array[i] = array[x];
-        array[x] = temporal;
-    }
+    return array.sort(() => Math.random() - 0.5)
 }
 
 export default RandomArray
