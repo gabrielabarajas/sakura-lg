@@ -4,6 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 
+.txt-select-msg{
+    color: rgb(167, 34, 158);
+    font-family:'Jomhuria', cursive;
+    font: Jomhuria;
+    font-size: 500%;
+    justify-content: center;
+}
 .card-set{
     display:flex;
     flex-direction: column;
