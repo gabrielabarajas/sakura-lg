@@ -7,11 +7,11 @@ function Card(key,image,name,title) {
 
 const [isFlipped, setIsFlipped] = useState(false);
 
-const [readCards, setReadCards] = useState([]);
-
 const handleClick = () =>{
     setIsFlipped(!isFlipped);
 }
+
+const [readCards, setReadCards] = useState([]);
 
 const handleAddCard = (card) => {
     // añadir la card recibida como parametro al array readCards
