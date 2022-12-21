@@ -1,12 +1,16 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Card from './Card'
 import GetCards from '../services/functions'
 import RandomArray from '../services/Randomize';
 
 function CardPanel() {
   const [cards,setCards ] = useState([]);
-  GetCards(setCards);
-  RandomArray(cards);
+  
+  useEffect(() => {
+    GetCards(setCards);
+  }, [])
+  
+  RandomArray(cards)
 
   return (
     <>
