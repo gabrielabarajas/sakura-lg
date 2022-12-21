@@ -11,7 +11,6 @@ const [readCards, setReadCards] = useState([]);
 
 const handleClick = () =>{
     setIsFlipped(!isFlipped);
-
 }
 
 const handleAddCard = (card) => {
@@ -27,7 +26,7 @@ return (
 
                 <ReactCardFlip isFlipped={isFlipped}>
                     <img src ={backFace} alt ='back face card' className="h-full w-full object-cover object-center group-hover:opacity-75 rounded-3xl" onClick = { () => {handleClick(); handleAddCard();}}/>
-                    <img key = {key} src = {image} alt ={name} className="h-full w-full object-cover object-center group-hover:opacity-75 rounded-3xl"/>
+                    <img key={key} src = {image} alt ={name} className="h-full w-full object-cover object-center group-hover:opacity-75 rounded-3xl"/>
                 </ReactCardFlip>
             </div>
         </div>
