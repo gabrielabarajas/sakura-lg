@@ -32,5 +32,12 @@
 
 .img-set{
     width: 10%;
+}
 
+.react-card-front{
+    background-color: white;
+}
+
+.react-card-back{
+    background-color: white;
 }
