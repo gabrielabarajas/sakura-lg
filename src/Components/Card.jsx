@@ -10,8 +10,14 @@ const [isFlipped, setIsFlipped] = useState(false);
 const [readCards, setReadCards] = useState([]);
 
 const handleClick = () =>{
+    const newItem = {
+        key : key,
+        image : image,
+        name : name,
+        title : title,
+    }
     setIsFlipped(!isFlipped);
-    setReadCards([...readCards,item]);
+    setReadCards([...readCards,newItem]);
 }
 
 console.log(readCards);
