@@ -28,4 +28,3 @@ $ npm start
 ***
 * [Gaby](https://github.com/gabrielabarajas/sakura-lg/)
 * [Luisa](hhttps://github.com/LuisaVAZ/LuisaVAZ)
-
